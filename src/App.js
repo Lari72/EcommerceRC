@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <Navbar/>
       <main className>
-      <ItemListContainer greetings={"Binevenidos a mi tienda"}/>
+      <ItemListContainer greetings={"Binevenidos al almacen"}/>
       </main>
     </div>
    </BrowserRouter>
