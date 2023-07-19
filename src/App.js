@@ -1,12 +1,15 @@
 import './App.css';
-import Navbar from './Components/NavBar/Navbar';
+ import Navbar from './Components/Navbar';
+ import ItemDetail from './Components/ItemDetail';
 import ItemListContainer from './Components/ItemListContainer/ItemListContainer';
-import {BrowserRouter} from "react-router-dom"
+import {BrowserRouter, Route, Routes} from "react-router-dom"
 function App() {
   return (
    <BrowserRouter>
     <div className="App">
-      <Navbar/>
+       <Navbar/> 
+
+  
       <main className>
       <ItemListContainer greetings={"Binevenidos al almacen"}/>
       </main>

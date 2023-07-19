@@ -1,10 +1,17 @@
 .NavBar {
-  display: flex;
-  justify-content: space-between;
+ 
+
+ 
+  background-color: aquamarine;
 }
 .NavBar-menu {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
+  margin-left: 10px;
+  
+  
+
+ 
 }
 .cart-widget-img {
   width: 1rem;
@@ -14,3 +21,36 @@
   width: 100%;
   
 }
+
+.centered-container{
+
+display: flex;
+justify-content: center;
+margin-top: 10px;
+
+
+
+  
+
+
+}
+.card{
+  border: 5px  solid #000;
+  text-align: center;
+}
+
+.centro-mn{
+  display: flex;
+  padding: 13px;
+
+}
+
+.titulo{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.inicio{
+  margin-left: 20px;
+}
+

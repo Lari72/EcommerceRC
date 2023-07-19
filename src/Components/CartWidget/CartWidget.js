@@ -3,8 +3,8 @@ import cart from './assets/cart.jpg'
 const CartWidget = () => {
     return (
         <div className="cart-widget-img">
-            <img src={cart} alt="cart-widget"/>
-            0
+            <img src={cart} alt="cart-widget"  style={{ width: "30px", height: "30px" }}/>
+            
 
         </div>
     )
@@ -12,16 +12,3 @@ const CartWidget = () => {
 
 export default CartWidget
 
-// import { BsCartFill } from "react-icons/bs";
-// import { ChakraProvider} from "@chakra-ui/react"
-
-
-// function CartWidget() {
-//     return (
-//         <ChakraProvider>
-//                 <BsCartFill /> 
-//                  0
-//         </ChakraProvider>
-//     )
-// }
-// export default CartWidget
